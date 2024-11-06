@@ -54,6 +54,8 @@
           echo "<h1>Subtotal is: " . $subtotal . "</h1>\n";
           echo "<h1>Tax is: " . $tax . "</h1>\n";
           echo "<h1>Final cost is: " . $final_cost . "</h1>\n";
+          echo '<br><br>';
+          echo '<a href="index2.html"><button> Confirm Order </button></a>';
           ?>
 
         </body>
