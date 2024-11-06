@@ -16,7 +16,7 @@
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <!-- Circumference and area -->
-        <span class="mdl-layout-title">Costs</span>
+        <span class="mdl-layout-title">Final Order Cost</span>
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
@@ -36,7 +36,7 @@
 
           $number_toppings = -1;
           if (isset($_POST['number_toppings'])) {
-            $number_toppings = ($_POST['number_toppings']);
+            $number_toppings = ($_POST['number_toppings']-1);
           }
 
           $baseprice = [
